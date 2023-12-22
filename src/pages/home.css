@@ -1,0 +1,36 @@
+.App-header{
+    box-shadow: 5px 5px 5px 5px #f1f1f1;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.App-body .container{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.App-body .container .button {
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(228, 226, 226);
+}
+.App-body .container .button:hover {
+    background-color: lightgray;
+}
+
+.App-footer {
+    position: fixed;
+    width: 100%;
+    border-top: 3px solid #f1f1f1;
+    bottom: 0;
+    left: 0;
+}
