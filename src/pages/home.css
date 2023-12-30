@@ -10,6 +10,13 @@
     align-items: center;
 }
 
+.App-header .container .button {
+    border: 0;
+    background: transparent;
+    font-size: 21px;
+    cursor: pointer;
+}
+
 
 .App-body .container{
     flex-direction: column;
